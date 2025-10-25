@@ -14,7 +14,7 @@ namespace Application
         static async Task Main()
         {
             var api = new RewardVpn();
-            string servers = await api.getServers();
+            string servers = await api.GetServers();
             Console.WriteLine(servers);
         }
     }
