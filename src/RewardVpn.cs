@@ -18,7 +18,7 @@ namespace RewardVpnApi
                 new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<string> getServers()
+        public async Task<string> GetServers()
         {
             var response = await httpClient.GetAsync($"{apiUrl}/get_servers.php");
             response.EnsureSuccessStatusCode();
