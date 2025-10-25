@@ -5,7 +5,6 @@ Mobile-API for [RewardVPN](https://play.google.com/store/apps/details?id=com.rew
 ```cs
 using System;
 using RewardVpnApi;
-using System.Threading.Tasks;
 
 namespace Application
 {
