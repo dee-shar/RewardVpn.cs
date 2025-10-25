@@ -1,7 +1,6 @@
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Threading.Tasks;
 
 namespace RewardVpnApi
 {
@@ -21,7 +20,6 @@ namespace RewardVpnApi
         public async Task<string> GetServers()
         {
             var response = await httpClient.GetAsync($"{apiUrl}/get_servers.php");
-            response.EnsureSuccessStatusCode();
             return await response.Content.ReadAsStringAsync();
         }
     }
