@@ -3,7 +3,6 @@ Mobile-API for [RewardVPN](https://play.google.com/store/apps/details?id=com.rew
 
 ## Example
 ```cs
-using System;
 using RewardVpnApi;
 
 namespace Application
